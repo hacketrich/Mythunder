@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbox</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="message">
+                <form action="">
+                    <input type="text" name="message" id="inputbox" placeholder="Type message">
+                    <input type="submit" name="send-btn" value="send">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<style>
+    body{
+        background: rgb(1, 1, 32);
+        
+        justify-content: center;
+        align-items: center;
+        max-height: 80% ;
+    }
+    form{
+        background: rgb(218, 206, 206);
+        width: 130%;
+        height: 80px;
+        margin-top: 155%;
+        margin-left: -15px;
+     
+    }
+    .container{
+        display: flex;
+        position: absolute;
+        background: white;
+        margin-right: 50%;
+        margin-left: 40%;
+        margin-top: 5%;
+        padding: 20px;
+        width: 300px;
+        height: 70%;
+        border: 1px solid grey;
+        border-radius: 12px;
+      
+    }
+    input[type="text"]{
+    content: "Message";
+       font-size: 15px;
+       border-radius: 40px;
+       padding: 10px;
+       margin: 20px 0px;
+           }
+</style>
